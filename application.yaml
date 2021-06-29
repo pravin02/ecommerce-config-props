@@ -4,7 +4,7 @@ product-catalog:
     
 
 test:
-    message: Test Message
+    message: message from parent app yaml file
     
     
 spring:
