@@ -1,4 +1,6 @@
 eureka:
+  instance:
+    hostname: localhost
   client:
     enabled: true
     serviceUrl:
@@ -15,7 +17,7 @@ spring:
     config:
       failFast: true
       enabled: true
-      uri: http://localhost:8888/        
+      uri: http://localhost:8888/
   jpa:
     showSql: true
     hibernate:
