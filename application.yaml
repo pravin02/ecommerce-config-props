@@ -7,6 +7,10 @@ eureka:
         preferedIpAddress: true
 
 spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8082
   jpa:
     showSql: true
     hibernate:
