@@ -1,12 +1,11 @@
-product-catalog:
-  test:
-    prop: APPLICATION Welcome to config server prop
-    
+eureka:
+  client:
+    enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+      instance:
+        preferedIpAddress: true
 
-test:
-    message: Test Message
-    
-    
 spring:
   jpa:
     showSql: true
