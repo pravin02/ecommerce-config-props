@@ -11,6 +11,11 @@ spring:
     admin:
       client:
         url: http://localhost:8082
+  cloud:
+    config:
+      failFast: true
+      enabled: true
+      uri: http://localhost:8888/        
   jpa:
     showSql: true
     hibernate:
